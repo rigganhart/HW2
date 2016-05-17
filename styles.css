@@ -1,0 +1,73 @@
+
+
+body {
+  font: 16px helvetica,arial,freesans,clean,sans-serif;
+  font-weight: bold;
+}
+body a {
+  color: #333;
+    text-decoration: none;
+
+}
+div {
+  display: inline;
+}
+ul span {
+  color: #cacaca
+}
+/* entire list*/
+.octocat {
+  display: inline-block;
+    width: 32%;
+    border-bottom: solid #cacaca 1px;
+
+}
+/* main pictures*/
+.octocat img {
+    width: 98%;
+    border: 1px solid #cacaca;
+}
+/* author pics*/
+.image-caption img {
+  width: 28px;
+  height: 28px;
+  border: none;
+}
+
+/* byline text*/
+.img-caption a {
+  color: #333
+}
+
+/*authors pics*/
+.authors {
+  float: right;
+  list-style: none;
+  padding: 0px;
+}
+/* triangle*/
+.image-footer:before {
+  content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-top-color: #cacaca;
+    position: relative;
+    right: -368px;
+    top: -4px;
+}
+
+/* entire footer*/
+.image-footer {
+  display: inline;
+  color: #b6b9bd;
+  vertical-align: middle;
+}
+.image-caption {
+  float: right;
+}
+
+.image-number:before {
+  content: "#"
+}
